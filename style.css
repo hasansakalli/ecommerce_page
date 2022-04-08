@@ -126,6 +126,10 @@ h1 {
   cursor: pointer;
   border-radius: 5px;
 }
+#add:hover{
+    opacity: 0.7;
+
+}
 #sepet {
   width: 18px;
 }
