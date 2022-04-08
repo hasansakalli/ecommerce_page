@@ -171,3 +171,6 @@ h1 {
   margin-bottom: 25px;
   margin-left: 10px;
 }
+.sum #minus, #plus{
+    cursor: pointer;
+}
