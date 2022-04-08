@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <script src="https://kit.fontawesome.com/9753036172.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="navbar">
+  <div class="logo"><img src="images/logo.svg" alt=""></div>
+  <div class="menuBar">
+    <ul>
+      <li>Collections</li>
+      <li> Men</li>
+      <li> Women</li>
+      <li> About</li>
+      <li> Contact</li>
+    </ul>
+      </div>
+      <div class="sagUst">
+        <img src="images/icon-cart.svg" id="sepet" alt="">
+        <p  id="sepet-sayi" > 0 </p>
+        
+        <img src="images/image-avatar.png"id="adam" alt="">
+      </div>
+</div>
+
+<div class="card">
+  <div class="produckt-img">
+  <div class="big-img">
+    <img src="images\image-product-1.jpg" alt="" id="bigImage1"class="bigImg">
+    <img src="images\image-product-2.jpg" alt="" id="bigImage2"class="bigImg">
+    <img src="images\image-product-3.jpg" alt="" id="bigImage3"class="bigImg">
+    <img src="images\image-product-4.jpg" alt="" id="bigImage4"class="bigImg">
+     </div>
+  <div class="klein-img">
+    <img src="images\image-product-1-thumbnail.jpg" alt="" id="kleinImage" onclick="imgOpen1()">
+    <img src="images\image-product-2-thumbnail.jpg" alt="" id="kleinImage"onclick="imgOpen2()">
+    <img src="images\image-product-3-thumbnail.jpg" alt="" id="kleinImage"onclick="imgOpen3()">
+    <img src="images\image-product-4-thumbnail.jpg" alt="" id="kleinImage"onclick="imgOpen4()">
+    
+  </div>
+  </div>
+  <div class="produckt-content">
+    <p id="title_sneaker"> SNEAKER COMPANY</p>
+    <h1 id="fall">Fall Limited Edition Sneakers</h1>
+    <p id="text">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+      durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+      <div class="money-field">
+      <p id="money">$125.00</p>
+      <p id="prozent">50%</p> 
+      <p id="alt-money">$250.00</p>
+      
+       
+    </div>
+   
+    <div class="konto">
+      <div class="sum">
+    <i class="fa-solid fa-minus" id="minus"onclick="minusF()"></i>
+    <p id="number">1</p>
+    <i class="fa-solid fa-plus" id="plus" onclick="plusF()"></i>
+  </div>
+    <div class="addCart"> 
+      
+      <button  id="add" onclick="addCart()" > <span><i class="fa-solid fa-cart-shopping"></i> </span> Add to cart  </button>
+
+      
+     
+ 
+  </div>
+  
+
+
+  </div>
+</div>
+ 
+<script src="app.js"></script>
+  
+
+</body>
+</html>

@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  font-family: "Heebo", sans-serif;
+  margin-top: 2em;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+}
+ul {
+  list-style: none;
+  display: flex;
+  padding-right: 9em;
+}
+ul li {
+  padding: 0.6em;
+  color: grey;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+li:hover {
+  transform: translateZ(1px);
+  transition: all 200ms;
+  opacity: 0.6;
+}
+
+.logo img {
+  width: 6rem;
+}
+.sagUst img {
+  width: 30px;
+}
+.sagUst {
+  display: flex;
+  gap: 2em;
+  align-items: baseline;
+}
+
+.card {
+  margin-top: 5em;
+  display: flex;
+  place-items: center;
+  width: 50vw;
+  gap: 5em;
+}
+.big-img img {
+  width: 260px;
+  display: none;
+  border-radius: 10px;
+}
+.klein-img {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.4em;
+}
+.klein-img img {
+  width: 57px;
+  border-radius: 6px;
+}
+#bigImage1 {
+  display: block;
+  margin-bottom: 10px;
+}
+h1 {
+  color: #1c2022;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: bold;
+}
+#title_sneaker {
+  color: #e17840d0;
+  font-weight: bold;
+  font-size: 9px;
+}
+#text {
+  color: gray;
+  font-size: 12px;
+}
+.produckt-content > * {
+  margin-bottom: 0.5em;
+}
+
+#money {
+  font-weight: bolder;
+}
+#prozent {
+  color: #e05409e0;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 0.3em;
+  align-items: baseline;
+}
+#alt-money {
+  font-size: 12px;
+  color: gray;
+  text-decoration: line-through;
+}
+.konto,
+.sum,
+.addCart {
+  display: flex;
+  justify-content: space-around;
+  gap: 1.5em;
+  align-items: center;
+  font-size: 13px;
+  color: #e05409e0;
+}
+#number {
+  color: black;
+}
+#add {
+  background-color: #e05409e0;
+  border: none;
+  padding: 0.7em 3em;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#sepet {
+  width: 18px;
+}
+.money-field {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  align-items: flex-end;
+}
+.addCart i {
+  font-size: 12px;
+  padding-right: 0.5em;
+}
+
+.bigImg {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#kleinImage {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  cursor: pointer;
+}
+#kleinImage:hover {
+  transform: translateY(2px);
+  transition: all 200ms;
+  opacity: 0.6;
+}
+#sepet {
+  position: relative;
+}
+#sepet-sayi {
+  position: absolute;
+  background-color: rgb(104, 203, 57);
+  color: rgb(209, 245, 8);
+  padding: 1px 3px;
+  border-radius: 20px;
+  font-size: 9px;
+  margin-bottom: 25px;
+  margin-left: 10px;
+}
